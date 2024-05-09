@@ -15,10 +15,10 @@ import os
 import re
 
 
-API_ID = "14050586"
-API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
-SESSION_NAME = os.environ.get("SESSION_NAME", "")
-MONGO_URL = os.environ.get("MONGO_URL", "")
+API_ID = "20463607"
+API_HASH = "66daa9042561743f9451af9ec7f62a00"
+SESSION_NAME = os.environ.get("SESSION_NAME", "BQAx_NjWKwAGkPwWa5tOtDQVygfXaTSRRiinpL-Thgp_6dTWXO58vmcXh9JMfY9gQVAoo8egOUcifhQUJXREF5gp9qL5RHf6aoaWCyRMxX6aL18MQxsrzgzJA_UiVo-SGcntBloJHyzZU6oVXmOJqIN_4AKxBsBCCmzdGTUXkNoDTffqPasQ28ir0kwa0to_gmCR7Zsxy9QPHAXNrAz6pzy6VgPCRUSevvttwdBhvmJqhcshScAuY8vVbNNP_rUQABN0aKm4R5Dw-mpZvzhw2OAiWsJ-r_pZ2M_Q-BWE-CeNVyR9z3DveV2lTgl2ZP8eeAZXKcFkceLGslGIEsQxGUMhAAAAAVY9kTEA")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://BrandedSupportGroup:BRANDED_WORLD@cluster0.v4odcq9.mongodb.net/?retryWrites=true&w=majority")
 
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
